@@ -1,4 +1,4 @@
-### Experiment - Build a Fullstack App from Scratch using Next.js
+# EXPERIMENT - Build a Fullstack App from Scratch using Next.js
 
 ## Introduction
 
