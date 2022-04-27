@@ -40,6 +40,11 @@ const navMenu = [
     icon: MdLibraryMusic,
     route: '/favorites',
   },
+  {
+    name: 'Settings',
+    icon: MdLibraryMusic,
+    route: '/favorites',
+  },
 ]
 
 const musicMenu = [
