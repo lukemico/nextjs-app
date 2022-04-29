@@ -36,11 +36,6 @@ const navMenu = [
     route: '/library',
   },
   {
-    name: 'Your Favorites',
-    icon: MdLibraryMusic,
-    route: '/favorites',
-  },
-  {
     name: 'Settings',
     icon: MdLibraryMusic,
     route: '/favorites',
@@ -96,6 +91,7 @@ const Sidebar = () => {
             ))}
           </List>
         </Box>
+        <Divider color="gray.800" />
         <Box marginTop="20px">
           <List spacing={2}>
             {musicMenu.map((menu) => (
@@ -118,7 +114,7 @@ const Sidebar = () => {
         </Box>
         <Divider color="gray.800" />
         <Box height="66%" overflowY="auto" paddingY="20px">
-          <List spaceing={2}>
+          <List spacing={2}>
             {playlists.map((playlist) => (
               <ListItem paddingX="20px" key={playlist.id}>
                 <LinkBox>
